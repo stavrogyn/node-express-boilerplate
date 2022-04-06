@@ -1,0 +1,49 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Nikita's Krugovoy own blog",
+  "main": "index.js",
+  "author": "Nikita <nikitakrugovoy@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "nodemon index.ts",
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@types/cookie-session": "^2.0.44",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/express-session": "^1.17.4",
+    "@types/jest": "^27.4.1",
+    "@types/supertest": "^2.0.12",
+    "@types/uid-safe": "^2.1.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "dotenv": "^16.0.0",
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "jest-config": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "prettier": "2.6.2",
+    "pretty-quick": "^3.1.3",
+    "superagent": "^7.1.2",
+    "supertest": "^6.2.2",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "body-parser": "^1.20.0",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "helmet": "^5.0.2",
+    "http": "^0.0.1-security",
+    "uid-safe": "^2.1.5"
+  }
+}
