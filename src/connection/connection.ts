@@ -1,4 +1,5 @@
 import mongoose from 'mongoose'
+import { ServerApiVersion } from 'mongodb'
 import { MongoMemoryServer } from 'mongodb-memory-server'
 
 import { config } from './config'
@@ -6,12 +7,11 @@ import { config } from './config'
 const options = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  useCreateIndex: config.mongo.useCreateIndex,
   keepAlive: true,
   keepAliveInitialDelay: 300000,
-  autoIndex: config.mongo.autoIndex,
   serverSelectionTimeoutMS: 5000,
   socketTimeoutMS: 45000,
+  serverApi: ServerApiVersion.v1,
 }
 
 class MongoConnection {
@@ -73,4 +73,4 @@ class MongoConnection {
   }
 }
 
-export default MongoConnection.getInstance()
+export const connection = MongoConnection.getInstance()

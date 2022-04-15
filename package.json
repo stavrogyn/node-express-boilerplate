@@ -1,6 +1,6 @@
 {
-  "name": "blog",
-  "version": "1.0.0",
+  "name": "node-express-boilerplate",
+  "version": "1.1.0",
   "description": "Nikita's Krugovoy own blog",
   "main": "index.js",
   "author": "Nikita <nikitakrugovoy@gmail.com>",
@@ -49,6 +49,7 @@
     "express-session": "^1.17.2",
     "helmet": "^5.0.2",
     "http": "^0.0.1-security",
+    "mongodb": "^4.5.0",
     "mongodb-memory-server": "^8.4.2",
     "mongoose": "^6.3.0",
     "uid-safe": "^2.1.5"
