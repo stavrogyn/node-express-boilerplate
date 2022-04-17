@@ -1,11 +1,15 @@
-FROM node:12.18.1
-ENV NODE_ENV=production
+FROM node:14.17.6-alpine
 
-WORKDIR /app
+WORKDIR /boilerplate
 
-COPY ["package.json", "yarn.lock", "./"]
+ENV NODE_ENV=development
 
-COPY . .
+COPY .env ./
+COPY index.ts ./
+COPY package.json ./
+COPY yarn.lock ./
+COPY tsconfig.json ./
+COPY src ./src
 
 RUN yarn install
 
