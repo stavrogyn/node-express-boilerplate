@@ -15,3 +15,11 @@ For development:
 `yarn dev`
 
 To connect your own database, change env variables in .env file
+
+To build your project for Docker:
+
+`make docker_build`
+
+To run image in Docker:
+
+`make docker_run`
