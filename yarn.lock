@@ -305,6 +305,18 @@
   dependencies:
     "@cspotcode/source-map-consumer" "0.8.0"
 
+"@decorators/di@^1.0.3":
+  version "1.0.3"
+  resolved "https://nexus-dev.pcbltools.ru/repository/npm-group/@decorators/di/-/di-1.0.3.tgz#544c6302e3aab80fa8959c67f9ed4a411a6f00b1"
+  integrity sha512-wafyQo5lqGABT+Lh7Od9/qULg7DG/kZFU3mLUKZFuiV/KATYlnv198yQxaZUZerhUDoTl/cZKu9t4mJa0rZK4Q==
+  dependencies:
+    reflect-metadata "0.1.13"
+
+"@decorators/express@^2.6.0":
+  version "2.6.0"
+  resolved "https://nexus-dev.pcbltools.ru/repository/npm-group/@decorators/express/-/express-2.6.0.tgz#1df35d09be8038ada86f9db020bfde3560699cd1"
+  integrity sha512-th/LqSAHAAW1ob2CU6hxtsfnryGThmz0AmGP45rA3Yoi0Q7+FHAZVfH7NJSYHITai/uXjjOtZPPW/V0gFfbgUw==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.npmjs.org/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
@@ -5042,6 +5054,11 @@ readdirp@~3.6.0:
   integrity sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==
   dependencies:
     picomatch "^2.2.1"
+
+reflect-metadata@0.1.13:
+  version "0.1.13"
+  resolved "https://nexus-dev.pcbltools.ru/repository/npm-group/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
+  integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
 
 regenerate@^1.2.1:
   version "1.4.2"

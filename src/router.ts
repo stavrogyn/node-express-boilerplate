@@ -1,13 +1,10 @@
-import express, { Request, Response } from 'express'
+import express from 'express'
+import { attachControllers } from '@decorators/express'
+
+import { RootController } from './controllers'
 
 const router = express.Router()
 
-router.get('/', (req: Request, res: Response) => {
-  res.send('Hello World')
-})
-
-router.get('/about', (req: Request, res: Response) => {
-  res.send('About me')
-})
+attachControllers(router, [RootController])
 
 export default router
