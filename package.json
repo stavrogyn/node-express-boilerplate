@@ -11,7 +11,7 @@
     "dev": "nodemon index.ts",
     "test": "jest",
     "prepare": "husky install",
-    "prisma": "prisma generate"
+    "generate": "prisma generate"
   },
   "devDependencies": {
     "@decorators/di": "^1.0.3",
