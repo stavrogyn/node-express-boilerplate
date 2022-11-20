@@ -1,4 +1,4 @@
-### Node express boilerplate
+# Node express boilerplate
 
 This project is created for the future to decrease potential efforts inventing some new service.
 
